@@ -1,0 +1,32 @@
+# Core
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+websockets==15.0.1
+python-dotenv==1.1.0
+
+# AI / LLM
+google-generativeai==0.8.5
+sentence-transformers>=3.0.0
+
+# Math (cosine similarity for RAG)
+numpy==2.2.5
+
+# HTTP client (Groq LLM streaming + Deepgram TTS HTTP fallback)
+httpx==0.28.1
+
+# Phase 3: Acoustic Intelligence
+# NOTE: Install torch CPU-only to keep image small (~200MB vs 2GB+ with CUDA).
+# Use: pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
+torch>=2.0.0
+librosa==0.10.2.post1
+transformers==4.49.0
+soundfile==0.13.1
+
+# Phase 5: Hybrid Search (BM25 + Vector RRF)
+rank-bm25>=0.2.2
+
+# Phase 5: Vector Database
+qdrant-client>=1.9.0
+
+# Phase 5: Document Ingestion (PDF parsing)
+pymupdf>=1.24.0

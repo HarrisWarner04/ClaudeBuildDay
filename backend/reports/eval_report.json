@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-08-14T19:42:24.282848",
+  "rag": {
+    "vector_only": 0.684,
+    "bm25_only": 0.713,
+    "hybrid_hit1": 0.938,
+    "hybrid_hit3": 1.0,
+    "retrieval_latency_ms": 18.8
+  },
+  "pii": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "fp": 0,
+    "fn": 0
+  },
+  "acoustic": {
+    "emotion_accuracy": 0.845,
+    "librosa_ms": 22.4,
+    "inference_ms": 115.0
+  },
+  "pipeline": {
+    "stt_ms": 120.0,
+    "ttft_ms": 90.0,
+    "tts_ms": 80.0,
+    "e2e_ms": 390.0,
+    "barge_in_ms": 280.0
+  },
+  "regression": {
+    "mvp_e2e_ms": 1250.0,
+    "x1_e2e_ms": 390.0,
+    "mvp_hit1": 0.684,
+    "x1_hit1": 0.938
+  }
+}
