@@ -3,7 +3,6 @@
 A voice AI assistant for banking questions. You talk into your microphone, it answers out loud — in about a third of a second.
 
 Built by [Harshawardhan Shrivastava](https://github.com/HarrisWarner04).
-[Demo video](https://drive.google.com/file/d/1G6ySJ6a4qunmbi7LL7BRzVw6A-p7Ve9t/view?usp=sharing)
 
 ## How it works
 
